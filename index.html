@@ -32,11 +32,12 @@ $(document).ready(function() {
 	
 	$("#noticias a").click(function(){   // selector descendiente de lista con el identificador id="noticias" 
 	                                     //y todos los enlaces que se encuenta en la lista id="noticias" hagan algo
+			 
 										 										 
 			$("#contenidos_externos").load("deportivas.html");	// Contenedor "contenidos_externos" para que las noticias se carguen
 	                                                   			 // en este contenedor de la pagina web principal.	
 														
-	 		return false; // inhabilita el comportamiento por defecto de ese elemento "<a href="">" 
+	 		return false;// inhabilita el comportamiento por defecto de ese elemento "<a href="">" 
 						 //html que es seguri el enlace html al archivo pertinente.
 	 
 
